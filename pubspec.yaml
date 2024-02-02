@@ -37,6 +37,9 @@ dependencies:
   cupertino_icons: ^1.0.2
   get: ^4.6.6
   http: ^1.2.0
+  carousel_slider: ^4.2.1
+  smooth_page_indicator: ^1.1.0
+  like_button: ^2.0.5
 
 dev_dependencies:
   flutter_test:
@@ -66,6 +69,7 @@ flutter:
   #   - images/a_dot_ham.jpeg
   assets:
     - assets/image/
+    - assets/fonts/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -94,4 +98,6 @@ flutter:
   # see https://flutter.dev/custom-fonts/#from-packages
 
   fonts:
-    - family: assets/font/
+    - family: Mon
+      fonts:
+      - asset: assets/fonts/font.ttf
